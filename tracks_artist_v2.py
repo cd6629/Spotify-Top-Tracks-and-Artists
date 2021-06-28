@@ -7,7 +7,6 @@ import spotipy.util as util
 
 token = util.prompt_for_user_token(
         username=USERNAME,
-        scope='user-library-read user-top-read',
         client_id=CLIENT_ID,
         client_secret=CLIENT_SECRET,
         redirect_uri=REDIRECT_URI)
