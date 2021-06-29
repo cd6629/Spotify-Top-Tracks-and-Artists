@@ -28,7 +28,7 @@ for sp_range in ranges:
 			
 		if sp_range == "long_term": #spotify doesn't keep more than 50 values in spotipy database, top two were rain songs to sleep to
 			if "Rain" not in x["name"]:
-				print(str(i-1)+'.', x['name'], '-', x['artists'][0]['name']) #values are from JSON file
+				print(str(i-1)+'.', x['name'], '-', x['artists'][0]['name']) #keys are from JSON file
 		else:
 			print(str(i+1)+'.', x['name'], '-', x['artists'][0]['name'])
 
